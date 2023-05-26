@@ -1,0 +1,1 @@
+#wrapper{border:dashed black 1px;display:flex;flex-wrap:wrap;width:80%;justify-content:center}#wrapper>div{border:dashed black 1px;flex-basis:120px;margin:10px;padding:10px;background-color:#90ee90}.navbutton{float:left;margin-right:20px}.invalidClass{color:red;font-size:.8em;font-style:italic}

@@ -10,7 +10,7 @@ export default {
     footerText: {
       type: String,
       required: false,
-      default: 'Jaderson Rodrigues - Scandiweb Test assignment'
+      default: 'Scandiweb Test assignment'
     }
   }
 }

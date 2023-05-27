@@ -62,13 +62,11 @@ export default {
         }
       }
 
-      let formData = new FormData()
-
       let deleteList = this.deleteProductList.reduce((prev, next) => prev == '' ? next : `${prev},${next}`, '')
 
-      console.log(deleteList);
-
       this.deleteProductList = []
+
+      let formData = new FormData()
 
       formData.append('delete-list', deleteList);
 
@@ -79,7 +77,6 @@ export default {
         })
         .catch(errors => {
           // console.log('%c Error deleting products\n', 'background: #FEC302', 'Route: ' + url, errors.response)
-          this.loadProducts()
         })
 
     }

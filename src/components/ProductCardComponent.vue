@@ -19,17 +19,6 @@ export default {
       type: Object,
       required: true
     }
-  },
-  data() {
-    return {}
-  },
-  emits: [
-    'add-To-Delete-List'
-  ],
-  methods: {
-    emitEvent() {
-      this.$emit('add-To-Delete-List', product.sku)
-    }
   }
 }
 </script>

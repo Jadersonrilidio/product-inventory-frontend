@@ -37,7 +37,8 @@ export default {
     }
   },
   emits: [
-    'send-Delete-List'
+    'send-Delete-List',
+    'submit-form'
   ],
   methods: {
     emitEvent(eventName) {
